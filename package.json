@@ -1,0 +1,26 @@
+{
+  "name": "tinychainjs",
+  "version": "1.0.0",
+  "description": "tiny chain",
+  "main": "dist/tinychain.esm.js",
+  "module": "dist/tinychain.esm.js", 
+  "browser": "dist/tinychain.min.js", 
+  "type": "module",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "compile":"node tinychain/tinychainbuilder.js -source ./examples/DSL_examples/tool_usage.chain -target tool_weather.js"
+  },
+  "keywords": [],
+  "author": "zidea2015",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.53.3"
+  }
+}

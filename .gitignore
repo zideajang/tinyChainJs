@@ -134,3 +134,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+tuts
+reference\
+package-lock.json
+.vscode
+
+examples/DSL_examples/
+temp.py
+tinychain_code_content.md
+reference
